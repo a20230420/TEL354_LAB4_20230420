@@ -1,9 +1,4 @@
 """Laboratorio 4: CLI de administracion de acceso con Floodlight.
-
-Ejecutar: python3 main.py [--database database.yaml] [--controller 127.0.0.1]
-Dependencias: pip install PyYAML requests aiohttp
-Los cambios de alumnos/cursos se guardan con Exportar. El registro de conexiones
-se guarda junto al YAML; cargarlo o salir nunca instala ni elimina flows.
 """
 
 import argparse
